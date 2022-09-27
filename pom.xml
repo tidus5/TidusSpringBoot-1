@@ -42,6 +42,12 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+<!--       =========== spring-data-jdbc  ==========-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jdbc</artifactId>
+        </dependency>
+
 <!--===================  jpa ========================-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

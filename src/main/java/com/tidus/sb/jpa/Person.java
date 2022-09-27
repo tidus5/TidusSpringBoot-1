@@ -1,4 +1,4 @@
-package com.tidus.sb.jpa.bean;
+package com.tidus.sb.jpa;
 
 import jakarta.persistence.*;
 import lombok.Getter;

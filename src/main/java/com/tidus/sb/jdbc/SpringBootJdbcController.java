@@ -23,6 +23,7 @@ import java.util.Map;
  * ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
  */
 @RestController
+@RequestMapping(value = "jdbc")
 public class SpringBootJdbcController {
     @Autowired
     JdbcTemplate jdbc;
