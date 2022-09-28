@@ -40,6 +40,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
         </dependency>
 
 <!--       =========== spring-data-jdbc  ==========-->
@@ -59,6 +60,21 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
+<!-- ================  mybatis ==========================-->
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+<!--     还不支持springboot3-->
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.mybatis</groupId>-->
+<!--            <artifactId>mybatis</artifactId>-->
+<!--            <version>3.4.6</version>-->
+<!--        </dependency>-->
+
 
 <!--   ===========================================-->
 

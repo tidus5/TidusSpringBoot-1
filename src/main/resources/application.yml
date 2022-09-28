@@ -1,2 +1,12 @@
 server:
   port: 8872
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: local
+    url: jdbc:mysql://localhost:3308/local?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: local
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

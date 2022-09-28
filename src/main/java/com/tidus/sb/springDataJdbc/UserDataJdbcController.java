@@ -8,6 +8,7 @@ import java.util.List;
 
 /**
  * https://github.com/dunwu/spring-boot-tutorial
+ * https://juejin.cn/post/6887110115959242759
  */
 @RestController
 @RequestMapping(value = "datajdbc")

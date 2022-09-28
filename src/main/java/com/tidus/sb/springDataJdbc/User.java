@@ -18,7 +18,7 @@ import java.util.Objects;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+class User {
 
   private Long id;
 
