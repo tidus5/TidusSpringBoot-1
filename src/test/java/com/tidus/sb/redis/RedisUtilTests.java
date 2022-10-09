@@ -1,4 +1,4 @@
-package com.tidus.sb;
+package com.tidus.sb.redis;
 
 import com.tidus.sb.redis.RedisUtil;
 import org.junit.jupiter.api.Assertions;

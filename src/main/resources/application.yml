@@ -15,3 +15,9 @@ spring:
       database: 0
       host: 127.0.0.1
       port: 6379
+    mongodb:
+      host: 127.0.0.1
+      port: 8084
+      database: test
+      username: admin
+      password: "123456"

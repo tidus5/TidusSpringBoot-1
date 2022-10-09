@@ -1,4 +1,4 @@
-package com.tidus.sb;
+package com.tidus.sb.redis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
